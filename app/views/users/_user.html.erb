@@ -1,0 +1,12 @@
+<div id="<%= dom_id user %>">
+  <p>
+    <strong>Name:</strong>
+    <%= user.name %>
+  </p>
+
+  <h1>Posts</h1>
+  <%= render user.posts %>
+
+  <h1>Comments</h1>
+  <%= render user.comments %>
+</div>
